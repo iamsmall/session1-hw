@@ -1,0 +1,362 @@
+
+
+
+  @import "variables";
+  @import "polaroid_style";
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+  @import url('https://fonts.googleapis.com/css?family=Shrikhand');
+  @import url('https://fonts.googleapis.com/css?family=Damion');
+  @import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
+
+body{
+	font-family:'Open Sans', sans-serif;
+	margin: 0;
+    padding: 0;
+	width:100%;
+}
+
+header{
+	background:grey;
+	width:100%;
+	padding-left: 20px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	-webkit-box-shadow: 0px 7px 36px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 7px 36px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 7px 36px 0px rgba(0,0,0,0.75);
+}
+
+ .header-bg{
+
+ 	background:
+	linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+	linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+	background-color:#708090;
+	background-size: 64px 128px;
+ }
+/*Brooklyn Eats Header Logo*/
+header h1{
+	font-family:'Damion' , cursive;
+	font-size: 2.7em;
+	margin-bottom: -15px;
+    margin-top: 10px;
+    color: white;
+	display: inline-block;
+}
+
+header h1 span{
+	font-family:'Open Sans', sans-serif;
+	font-weight: 100;
+	font-size:.7em;
+	margin-top: -30px;
+	font-weight: 700;
+    color: white;
+}
+
+
+
+/* Restaurant Info Image Hero */
+
+.restaurant-header{
+	margin-top: 110px;
+	background:url('../img/sushi-bg.jpg') no-repeat 0px -220px;
+	background-size: 100% auto;
+	width:100%;
+	height:300px;
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+	h2{
+		display:flex;
+		color:white;
+		padding-left:20px;
+		padding-top:20px;
+		font-size:2em;
+	}
+
+	p{
+		padding-left: 20px;
+		margin-top: -25px;
+		color: white;
+		font-size: 1.3em;
+	}
+
+	p strong{
+		color:white;
+	}
+
+	table{
+		margin-left: -100px;
+    	margin-top: 120px;
+    	color: white;
+    	display: flex;
+	}
+
+	.align-title{
+		padding-left:20px;
+	}
+
+
+	.info-text {
+	font-weight: 700;
+    padding-left: 20px;
+    padding-top: 40px;
+    color: white;
+    width: 150px;
+	}
+}
+
+
+
+
+.restaurant-header-recipes{
+	margin-top: 110px;
+	width:100%;
+	height:100px;
+	
+	h2{
+		
+		color:black;
+		padding-left:20px;
+		padding-top:20px;
+		font-size:2em;
+	}
+
+	p{
+		padding-left: 20px;
+		margin-top: -25px;
+		color: white;
+		font-size: 1.3em;
+	}
+
+	p strong{
+		color:white;
+	}
+
+	table{
+		padding-left:20px;
+		margin-top: -25px;
+		color:white;
+	}
+
+	.align-title{
+		padding-left:20px;
+	}
+}
+
+
+
+/*Body Text*/
+article {
+	padding-left:20px;
+}
+p{
+	font-weight:400;
+	font-size:1em;
+	color:$body-text-color;
+
+	a{
+	text-decoration:none;
+	color:$body-text-color;
+
+	}
+
+	
+}
+
+
+.sub-header {
+	font-size:1.5em;
+	width:100%;
+
+}
+.restaurant-rating{
+	background:url(../svg/bucket-tool.svg);
+	background-size: 80px 40px;
+    width: 250px;
+    height: 40px;
+    margin-bottom: -200px;
+    margin-top: -60px;
+    margin-right: 250px;
+    float: right;
+
+}
+
+.recipe-list{
+	
+	padding-left:0px;
+}
+
+.recipe-subheaders{
+	margin-bottom: -15px;
+}
+
+.rating-text{
+	float:right;
+	margin-bottom: -200px;
+    margin-top: -60px;
+    margin-right: 50px;
+}
+
+blockquote{
+	font-weight:700;
+	font-size:2em;
+	float:right;
+}
+
+img{
+	float:right;
+}
+
+/* Restaurant Info Text */
+
+ul li{
+	list-style:none;
+}
+
+ul li a,{
+	color:white;
+}
+
+
+table  th{
+	font-weight:700;
+	color:$restaurant-info-text;
+
+}
+
+.text-shadow{
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, 1);
+}
+
+/* menu navigation styling */
+
+.menu-nav{
+
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+  	-webkit-flex-flow: row wrap;
+  justify-content: flex-start;
+	margin-left:0px;
+
+	ul li {
+		font-family:'Open Sans', sans-serif;
+		font-weight:700;
+		padding-left: 20px;
+		list-style:none;
+		display:inline-block;
+	}
+
+	a{
+		text-decoration:none;
+		color:white;
+		display:block;
+	}
+
+	
+
+	a:focus{
+		color:aqua;
+	}
+
+	a:hover{
+		color:aqua;
+	}
+}
+
+/* Polaroid Images */
+
+#miso-photo{
+	
+	float:right;
+}
+
+#mochi-photo{
+	
+	float: left;
+    margin: 15px;
+}
+
+
+/* iPad Portait and Landscape Styling*/
+@media  
+ (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+
+		.restaurant-header{
+			padding-left:20px;
+
+		}
+
+		.info-text{
+			/*padding-left: 220px;
+    		margin-top: -110px;*/
+		}
+
+	}
+
+	
+/* iPad Portait Styling*/
+@media 
+ (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+ { 
+
+		.restaurant-rating{
+
+			margin-right: 225px;
+
+		}
+
+
+
+ }
+
+/* iPhone  styling*/
+ @media  
+ (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+
+	
+
+
+}
+
+
+
+@media(min-width:2000px){
+
+	.restaurant-header{
+			
+			margin-top:20px;
+
+		}
+	
+}
+
+
+@media(max-width:600px){
+
+	.restaurant-header{
+			
+			margin-top: 250px;
+		    background: url(../img/sushi-bg.jpg) no-repeat 0px -220px;
+		    background-size: 150% 140%;
+
+		    .info-text{
+
+		    	padding-top:0px;
+		    }
+
+		}
+	
+}
+
+
+

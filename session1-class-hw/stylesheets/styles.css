@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Shrikhand");
+@import url("https://fonts.googleapis.com/css?family=Damion");
+@import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
+.polaroid-style {
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 6px 10px 31px -5px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 6px 10px 31px -5px rgba(0, 0, 0, 0.22);
+  box-shadow: 6px 10px 31px -5px rgba(0, 0, 0, 0.22);
+}
+.polaroid-style img {
+  width: 270px;
+  height: 197px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  margin: 11px 15px 8px 8px;
+}
+.polaroid-style span {
+  display: block;
+  font-family: 'Reenie Beanie', sans-serif;
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.polaroid-rotate-right {
+  transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+}
+
+.polaroid-rotate-left {
+  transform: rotate(358deg);
+  -webkit-transform: rotate(358deg);
+  -moz-transform: rotate(358deg);
+  -o-transform: rotate(358deg);
+  -ms-transform: rotate(358deg);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  background: grey;
+  width: 100%;
+  padding-left: 20px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  -webkit-box-shadow: 0px 7px 36px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 7px 36px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 7px 36px 0px rgba(0, 0, 0, 0.75);
+}
+
+.header-bg {
+  background: linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px), linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px) 0 64px;
+  background-color: #708090;
+  background-size: 64px 128px;
+}
+
+/*Brooklyn Eats Header Logo*/
+header h1 {
+  font-family: 'Damion' , cursive;
+  font-size: 2.7em;
+  margin-bottom: -15px;
+  margin-top: 10px;
+  color: white;
+  display: inline-block;
+}
+
+header h1 span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: .7em;
+  margin-top: -30px;
+  font-weight: 700;
+  color: white;
+}
+
+/* Restaurant Info Image Hero */
+.restaurant-header {
+  margin-top: 110px;
+  background: url("../img/sushi-bg.jpg") no-repeat 0px -220px;
+  background-size: 100% auto;
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.restaurant-header h2 {
+  display: flex;
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 2em;
+}
+.restaurant-header p {
+  padding-left: 20px;
+  margin-top: -25px;
+  color: white;
+  font-size: 1.3em;
+}
+.restaurant-header p strong {
+  color: white;
+}
+.restaurant-header table {
+  margin-left: -100px;
+  margin-top: 120px;
+  color: white;
+  display: flex;
+}
+.restaurant-header .align-title {
+  padding-left: 20px;
+}
+.restaurant-header .info-text {
+  font-weight: 700;
+  padding-left: 20px;
+  padding-top: 40px;
+  color: white;
+  width: 150px;
+}
+
+.restaurant-header-recipes {
+  margin-top: 110px;
+  width: 100%;
+  height: 100px;
+}
+.restaurant-header-recipes h2 {
+  color: black;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 2em;
+}
+.restaurant-header-recipes p {
+  padding-left: 20px;
+  margin-top: -25px;
+  color: white;
+  font-size: 1.3em;
+}
+.restaurant-header-recipes p strong {
+  color: white;
+}
+.restaurant-header-recipes table {
+  padding-left: 20px;
+  margin-top: -25px;
+  color: white;
+}
+.restaurant-header-recipes .align-title {
+  padding-left: 20px;
+}
+
+/*Body Text*/
+article {
+  padding-left: 20px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1em;
+  color: black;
+}
+p a {
+  text-decoration: none;
+  color: black;
+}
+
+.sub-header {
+  font-size: 1.5em;
+  width: 100%;
+}
+
+.restaurant-rating {
+  background: url(../svg/bucket-tool.svg);
+  background-size: 80px 40px;
+  width: 250px;
+  height: 40px;
+  margin-bottom: -200px;
+  margin-top: -60px;
+  margin-right: 250px;
+  float: right;
+}
+
+.recipe-list {
+  padding-left: 0px;
+}
+
+.recipe-subheaders {
+  margin-bottom: -15px;
+}
+
+.rating-text {
+  float: right;
+  margin-bottom: -200px;
+  margin-top: -60px;
+  margin-right: 50px;
+}
+
+blockquote {
+  font-weight: 700;
+  font-size: 2em;
+  float: right;
+}
+
+img {
+  float: right;
+}
+
+/* Restaurant Info Text */
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  color: white;
+}
+
+table th {
+  font-weight: 700;
+  color: white;
+}
+
+.text-shadow {
+  text-shadow: 2px 1px 2px black;
+}
+
+/* menu navigation styling */
+.menu-nav {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-start;
+  margin-left: 0px;
+}
+.menu-nav ul li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  padding-left: 20px;
+  list-style: none;
+  display: inline-block;
+}
+.menu-nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+.menu-nav a:focus {
+  color: aqua;
+}
+.menu-nav a:hover {
+  color: aqua;
+}
+
+/* Polaroid Images */
+#miso-photo {
+  float: right;
+}
+
+#mochi-photo {
+  float: left;
+  margin: 15px;
+}
+
+/* iPad Portait and Landscape Styling*/
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+  .restaurant-header {
+    padding-left: 20px;
+  }
+
+  .info-text {
+    			/*padding-left: 220px;
+        		margin-top: -110px;*/
+  }
+}
+/* iPad Portait Styling*/
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+  .restaurant-rating {
+    margin-right: 225px;
+  }
+}
+/* iPhone  styling*/
+@media (min-width: 2000px) {
+  .restaurant-header {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .restaurant-header {
+    margin-top: 250px;
+    background: url(../img/sushi-bg.jpg) no-repeat 0px -220px;
+    background-size: 150% 140%;
+  }
+  .restaurant-header .info-text {
+    padding-top: 0px;
+  }
+}
